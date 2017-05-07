@@ -1,0 +1,53 @@
+* {
+	outline: none;
+}
+#wrapper {
+	background-color: #FFFFFF;
+	border: 1px solid #BFBFBF;
+	width: 440px;
+	padding: 15px;
+	margin: auto;
+}
+body {
+	background-color: #F0F0F0;
+}
+.header  {
+	border: 1px solid #BFBFBF;
+	background-color: #EEE;
+	font-size: 120%;
+	font-weight: bold;
+	text-align: center;
+}
+table {
+	border: 1px solid #BFBFBF;
+	border-collapse: collapse;
+	margin: auto;
+}
+table td {
+	border: 1px solid #BFBFBF;
+	padding: 4px;
+	vertical-align: middle;
+}
+input[type="text"], textarea {
+	border: 1px solid #BFBFBF;
+	padding: 4px;
+	background-color: #FFF;
+	width: 300px;
+}
+
+input[type="text"]:focus, textarea:focus {
+	border: 1px solid black;
+}
+textarea {
+	width: 300px;
+	height: 120px;
+	max-width: 300px;
+	max-height: 120px;
+	overflow: auto;
+	font-family: Arial;
+}
+.require {
+	font-style: italic;
+	font-weight: bold;
+	color: red;
+}

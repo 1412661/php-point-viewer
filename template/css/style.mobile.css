@@ -1,0 +1,307 @@
+* {
+	outline: none;
+}
+body {
+	background-color: #F0F0F0;
+}
+.wrapper {
+	background-color: #FFFFFF;
+	border: 1px solid #BFBFBF;
+	width: 550px;
+	padding: 15px;
+	margin: auto;
+}
+#banner {
+	margin: 20px auto;
+	text-align: center;
+}
+
+.clear {
+	clear: both;
+}
+#footer {
+	background-color: #FFF;
+	border: 1px solid #BFBFBF;
+	color: green;
+	padding: 5px;
+	width: 570px;
+	margin: auto;
+	text-align: center;
+	font-weight: bold;
+}
+
+#footer a {
+	color: green !important;
+}
+
+select {
+	margin-left: 5px;
+}
+
+.header {
+	font-size: 130%;
+	text-align: center;
+	font-weight: bold;
+	margin: 5px;
+}
+
+#output * {
+	margin: auto;
+}
+
+#view_db table tr:hover {
+	background-color: #DDDDDD;
+	font-weight: bold;
+}
+
+#student .chu_y {
+	border: 1px solid #bfbfbf; 
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#student .chu_y ul li { 
+	border-style: none;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	margin-left: -20px;
+	text-indent: 0px;
+}
+
+#student .chu_y .warning_mess {
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	padding: 6px 10px;
+	border: solid 1px #9F6000;
+	background: #FEEFB3;
+	color: #9F6000;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#student .chu_y .warning_mess img {
+	vertical-align: middle; 
+	height: 1.5em;
+}
+
+
+/*	Style for index_page	*/
+#index_page * {
+	margin: auto;
+}
+
+
+/*	Style for class_rank	*/
+#class_rank .wrap table {
+	border: 1px solid #000;
+	border-collapse: collapse;
+	margin: auto;
+}
+
+#class_rank .wrap table tr td {
+	border: 1px solid #000;
+	padding: 3px 5px;
+	vertical-align: middle;
+}
+
+/*	Style for manage_db	*/
+#manage_db .db_error, #update_db .db_success {
+	border: 1px solid #BFBFBF; 
+	padding: 15px 10px;
+	margin-bottom: 20px;
+}
+
+#manage_db .db_error .error_mess {
+	text-align: left;
+	margin-bottom: 15px;
+}
+
+#manage_db .db_error .error_mess img {
+	vertical-align: middle; 
+	width: 1.5em; 
+	height: 1.5em;
+}
+
+#manage_db .db_success .success_mess {
+	text-align: left;
+	margin-bottom: 15px;
+}
+
+#manage_db .db_success .success_mess img {
+	vertical-align: middle; 
+	width: 1.5em; 
+	height: 1.5em;
+}
+
+#manage_db .db_success a {
+	width: 100%;
+}
+
+/*	Style for update_db	*/
+#update_db .chu_y {
+	border: 1px solid #bfbfbf;
+}
+
+#update_db .chu_y .warning_mess {
+	padding: 6px 10px;
+	border: solid 1px #9F6000;
+	background: #FEEFB3;
+	color: #9F6000;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#update_db .chu_y .warning_mess img {
+	vertical-align: middle; 
+	height: 1.5em;
+}
+
+/*	Style for users	*/
+#users * {
+	margin: auto;
+}
+
+#users .users_error .error_mess img, #users .users_success .success_mess img {
+	vertical-align: middle; 
+	width: 1.5em; 
+	height: 1.5em;
+}
+
+
+#users .add_user {
+	border: 1px solid #BFBFBF;
+	padding: 10px;
+}
+
+
+/*	 Style for class_rank_law	*/
+#class_rank_law {
+	border: 1px solid #BFBFBF;
+	width: 100%;
+}
+
+#class_rank_law table {
+	border: 1px solid #000;
+	border-collapse: collapse;
+	margin: auto;
+}
+
+#class_rank_law table tr td {
+	border: 1px solid #000;
+	padding: 3px 5px;
+	vertical-align: middle;
+}
+
+/*	Style for table	*/
+.table {
+	border: 1px solid #BFBFBF;
+	border-collapse: collapse;
+}
+.table td, .table thead tr th {
+	border: 1px solid #BFBFBF;
+	padding: 4px;
+	vertical-align: middle;
+}
+
+/*	Style for input	*/
+input[type="text"], input[type="password"] {
+	border: 1px solid #bfbfbf;
+	padding: 4px;
+	margin: 5px;
+}
+input[type="text"]:focus, input[type="password"]:focus {
+	border: 1px solid black;
+}
+.require {
+	font-style: italic;
+	font-weight: bold;
+	color: red;
+}
+.marquee {
+	overflow: hidden;
+
+	/* For Safari and Chrome  */
+	overflow-x:-webkit-marquee;
+	-webkit-marquee-direction: backwards;
+	-webkit-marquee-style: scroll;
+	-webkit-marquee-speed: fast;
+	-webkit-marquee-increment: small;
+	-webkit-marquee-repetition: infinite;
+
+	/* W3C Standard */
+	overflow-x: marquee-line;
+	marquee-direction: forward;
+	marquee-style: scroll;
+	marquee-speed: fast;
+	marquee-play-count: infinite;
+}
+
+/*	Style for selection color	*/
+::-moz-selection {
+       background-color: #bfbfbf;
+       color: #000;
+}
+::selection {
+       background-color: #bfbfbf;
+       color: #000;
+}
+/*	Style for point color	*/
+.high_point {
+	color: #2e8a00;
+	font-weight: bold;
+}
+.low_point {
+	color: #ff0000;
+	font-weight: bold;
+}
+.medium_point {
+	color: #70b84d;
+	font-weight: bold;
+}
+/*	Style for backgroud color	*/
+.bg_green {
+	background-color: #E9FFE9;
+}
+.bg_red {
+	background-color: #FFF0F0;
+}
+.bg_grey_bold {
+	font-weight: bold;
+	background-color: #C0C0C0;
+}
+.bg_grey {
+	background-color: #D9D9D9;
+}
+.bg_grey_light {
+	background-color: #ECECEC;
+}
+/*	Style for message	*/.success_mess {
+	padding: 6px 10px;
+	border: solid 1px #4F8A10;
+	background: #DFF2BF;
+	color: #4F8A10;
+	font-size: 14px;
+}
+.error_mess {
+	padding: 6px 10px;
+	border: 1px solid #D8000C;
+	background: #FFBABA;
+	color: #D8000C;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+/* Style for child format	*/
+.center {
+	text-align: center;
+}
+
+.left {
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+}
