@@ -1,0 +1,68 @@
+* {
+	font-family: Courier New;
+	font-size: 12px;
+}
+
+table {
+	border: 1px solid #BFBFBF;
+	border-collapse: collapse;
+	text-align: center;
+	margin: 30px auto;
+}
+
+table td, table tr {
+	border: 1px solid #BFBFBF;
+	padding: 3px 5px;
+}
+
+td {
+	max-width: 350px;
+}
+
+input, button {
+	background-color: white;
+}
+
+input[type="text"] {
+	width: 70px;
+	vertical-align: middle;
+	
+}
+
+.header {
+	font-size: 160%;
+	font-weight: bold;
+	margin: 5px;
+	font-style: normal !important;
+}
+
+.link {
+	text-decoration: none;
+	color: black;
+	font-style: italic;
+}
+
+.link:hover {
+	color: blue;
+	text-decoration: underline;
+}
+
+.link:active {
+	font-weight: bold;
+}
+
+.left {
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+}
+
+.center {
+	text-align: center;
+}
+
+.justify {
+	text-align: justify;
+}
