@@ -1,1 +1,0 @@
-Thư mục chứa javascript hỗ trợ cho phần giao diện người dùng của website.
